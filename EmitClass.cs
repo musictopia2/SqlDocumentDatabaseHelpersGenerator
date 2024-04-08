@@ -1,5 +1,5 @@
 ﻿namespace SqlDocumentDatabaseHelpersGenerator;
-internal class EmitClass(BasicList<ResultsModel> results, SourceProductionContext context)
+internal class EmitClass(ImmutableArray<ResultsModel> results, SourceProductionContext context)
 {
     private string GetErrorMessage(ResultsModel result)
     {
