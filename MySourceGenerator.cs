@@ -1,8 +1,6 @@
 ﻿namespace SqlDocumentDatabaseHelpersGenerator;
 [Generator] //this is important so it knows this class is a generator which will generate code for a class using it.
-#pragma warning disable RS1036 // Specify analyzer banned API enforcement setting
 public class MySourceGenerator : IIncrementalGenerator
-#pragma warning restore RS1036 // Specify analyzer banned API enforcement setting
 {
     public void Initialize(IncrementalGeneratorInitializationContext context)
     {
